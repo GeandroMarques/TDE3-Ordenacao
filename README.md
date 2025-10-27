@@ -29,8 +29,8 @@
 | Algoritmo       | Trocas | Iterações |
 |-----------------|--------|-----------|
 | SelectionSort   | 10     | 19        |
-| CombSort        | 18     | 110       |
 | BucketSort      | 11     | 40        |
+| CombSort        | 18     | 110       |
 | BubbleSort      | 190    | 20        |
 | CocktailSort    | 190    | 100       |
 | GnomeSort       | 190    | 400       |

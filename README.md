@@ -2,23 +2,35 @@
 
 # Resultados dos Algoritmos de Ordenação
 
-| Algoritmo       | Tipo de Vetor         | Trocas | Iterações |
-|-----------------|---------------------|--------|-----------|
-| **BubbleSort**  | Aleatório            | 78     | 15        |
-|                 | Crescente            | 0      | 1         |
-|                 | Descrescente         | 190    | 20        |
-| **BucketSort**  | Aleatório            | 10     | 40        |
-|                 | Crescente            | 10     | 40        |
-|                 | Descrescente         | 11     | 40        |
-| **CocktailSort**| Aleatório            | 78     | 84        |
-|                 | Crescente            | 0      | 19        |
-|                 | Descrescente         | 190    | 100       |
-| **CombSort**    | Aleatório            | 22     | 110       |
-|                 | Crescente            | 0      | 110       |
-|                 | Descrescente         | 18     | 110       |
-| **GnomeSort**   | Aleatório            | 78     | 176       |
-|                 | Crescente            | 0      | 20        |
-|                 | Descrescente         | 190    | 400       |
-| **SelectionSort** | Aleatório          | 18     | 19        |
-|                 | Crescente            | 0      | 19        |
-|                 | Descrescente         | 10     | 19        |
+## Vetor Aleatório
+
+| Algoritmo       | Trocas | Iterações |
+|-----------------|--------|-----------|
+| BubbleSort      | 78     | 15        |
+| BucketSort      | 10     | 40        |
+| CocktailSort    | 78     | 84        |
+| CombSort        | 22     | 110       |
+| GnomeSort       | 78     | 176       |
+| SelectionSort   | 18     | 19        |
+
+## Vetor Ordenado Crescente
+
+| Algoritmo       | Trocas | Iterações |
+|-----------------|--------|-----------|
+| BubbleSort      | 0      | 1         |
+| BucketSort      | 10     | 40        |
+| CocktailSort    | 0      | 19        |
+| CombSort        | 0      | 110       |
+| GnomeSort       | 0      | 20        |
+| SelectionSort   | 0      | 19        |
+
+## Vetor Ordenado Descrescente
+
+| Algoritmo       | Trocas | Iterações |
+|-----------------|--------|-----------|
+| BubbleSort      | 190    | 20        |
+| BucketSort      | 11     | 40        |
+| CocktailSort    | 190    | 100       |
+| CombSort        | 18     | 110       |
+| GnomeSort       | 190    | 400       |
+| SelectionSort   | 10     | 19        |

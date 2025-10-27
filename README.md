@@ -19,8 +19,8 @@
 |-----------------|--------|-----------|
 | BubbleSort      | 0      | 1         |
 | CocktailSort    | 0      | 19        |
-| GnomeSort       | 0      | 20        |
 | SelectionSort   | 0      | 19        |
+| GnomeSort       | 0      | 20        |
 | CombSort        | 0      | 110       |
 | BucketSort      | 10     | 40        |
 
